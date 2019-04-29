@@ -16,8 +16,7 @@ This repository does not contain full functionality.
 - HDMI
 - SD Card slot
 - Display Port
-- Brightness Control
-- Keyboard Backlight Control
+- Keyboard Backlight
 
 # Not working:
 - Stock Wi-fi (Driver for Intel still in development)
