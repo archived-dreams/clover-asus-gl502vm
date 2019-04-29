@@ -1,3 +1,5 @@
+This repository does not contain full functionality.
+
 # Based on:
 - https://www.tonymacx86.com/threads/guide-asus-rog-g551-552-gl551-552-series-skylake-i7-6700hq-hd-530-using-clover-uefi.195422/
 - https://www.tonymacx86.com/threads/guide-asus-rog-gl502vs-skylake-i7-6700hq-gtx-1070-sierra-10-12-4.221056/
@@ -81,9 +83,7 @@ MaciASL => "Patch" => "Patch Text"; Click "Apply"
 - [usb] USB3_PRW 0x0D Skylake (instant wake)
 12. Click Compile and if you have any errors (warnings don’t matter) clear them by using the patching guide above. Save the file as: DSDT.aml and file format: ACPI Machine Language Binary.
 
-# SSDT-1 <= Чет тут ошибки были :( ) А тут еще больше - SSDT-x4_0-Cpu0Ist
-
-## II.II. Patching SSDT's
+## II.II. Patching SSDT's (SKIP this step)
 Open files one at a time "*.dsl": 
 1. Search for "**GFX0**" and replace all with "**IGPU**"
 2. Click Compile and if you have any errors (warnings don’t matter) clear them by using the patching guide above. Save the file as: SSDT-*-*.aml and file format: ACPI Machine Language Binary.
